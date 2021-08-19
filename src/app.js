@@ -31,7 +31,7 @@ router.all('/', (ctx) => {
     }
     ctx.response.body = res.data;
 })
-.post('/api/getSymbolData', async (ctx) => {
+.post('/api/get-historical-data', async (ctx) => {
     const res = await axios.request({
         method: 'GET',
         url: 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-historical-data',
