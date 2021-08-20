@@ -12,9 +12,9 @@ const appName = require('../package.json').name;
 const defaults = {
   PORT: process.env.PORT || 3000,
   API_KEYS: {
-      YAHOO_FIN: '',
-      SEND_GRID: ''
-  }
+    YAHOO_FIN: '',
+    SEND_GRID: '',
+  },
 };
 
 /**

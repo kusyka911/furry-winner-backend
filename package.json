@@ -10,7 +10,7 @@
     "test": "better-npm-run test",
     "test-watch": "better-npm-run test-watch",
     "test-cov": "better-npm-run test-cov",
-    "lint": "eslint src tests"
+    "lint": "eslint src"
   },
   "betterScripts": {
     "test": {
@@ -32,6 +32,16 @@
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",
     "rc": "^1.2.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier",
+      "airbnb-base"
+    ],
+    "env": {
+      "node": true,
+      "jest": true
+    }
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
