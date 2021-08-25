@@ -37,7 +37,7 @@ router
       headers: {
         'content-type': 'application/json',
         'x-rapidapi-host': 'apidojo-yahoo-finance-v1.p.rapidapi.com',
-        'x-rapidapi-key': config.API_KEYS.SEND_GRID,
+        'x-rapidapi-key': config.API_KEYS.YAHOO_FIN,
       },
       params: ctx.query,
       data: ctx.request.rawBody,

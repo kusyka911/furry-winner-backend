@@ -13,5 +13,5 @@ Create config file named `.app-config.json` as in example bellow.
     }
 }
 ```
-
+run `yarn` for dependencies install
 run `yarn start` to launch.
